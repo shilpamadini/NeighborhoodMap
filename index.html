@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Neighborhood Map</title>
+	<link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+        <div class="container">
+              <div class="options-box">
+                  <div class="heading">
+                      <h1>BART Locations</h1>
+                  </div>
+                  <div class="location-search">
+                    <input id="places-search" type="text" data-bind="textInput:Query" placeholder="Filter Locations">
+                    <input id="filter-search" type="button" value="Filter">
+                  </div>
+                  <div class="station" data-bind="foreach: stationList">
+                        <h4 data-bind="text: location_name,visible:showMarker,click: $root.openInfoWindow"></h4>
+                  </div>
+              </div>
+              <div id="map"></div>
+        </div>
+    <script src="js/lib/knockout-min.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer
+        src=
+        "https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyCDDLVLOksmna-ifE9ltO1Jvz2icXP2Itw&v=3&callback=initMap">
+    </script>
+
+  </body>
+</html>
