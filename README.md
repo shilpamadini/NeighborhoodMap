@@ -19,22 +19,9 @@ This folder contains the necessary program files to generate Neighborhood map fo
 
 This project can be run on a any browser including google chrome, mozilla firefox, safari.
 
-1.Use the following command to clone the project repository.
+1. Use the following command to clone the project repository.
         * ```git clone https://github.com/shilpamadini/NeighborhoodMap.git```
-3. Run the following commands to install the required software.
-    * Navigate to the "vagrant" directory where above mentioned software is downloaded.
-    * To install the Linux VM. Run the following command.
-        * ```vagrant up```
-    * Once Vagrant up is finished running,run the following command to login to VM
-        * ```vagrant ssh```
-    * All the files in "vagrant" directory on your terminal will appear in the "/vagrant" directory on the VM
-    *  At the VM shell prompt
-        * ```cd /vagrant/catalog```
-        * ```python database_setup.py```
-        * ```python items_data.py```
-        * ```python application.py```
-        * ```\q``` to go back to shell prompt
-    * Use any web browser to open the portfolio.html page.This webpage is tested on Google Chrome,Mozilla Firefox and Safari. This webpage is also tested for responsive design.
+2. Use any web browser to open the portfolio.html page.This webpage is tested on Google Chrome,Mozilla Firefox and Safari. This webpage is also tested for responsive design.
 
 ## Functionality
 
