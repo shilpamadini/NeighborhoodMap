@@ -109,13 +109,8 @@ var ViewModel = function() {
         };
 };
 
-// Error message handling for Google Maps
-function googleError() {
-    alert('Error loading Google Maps, please try again later.');
-}
 
 stationView = new ViewModel();
-ko.applyBindings(stationView);
 
 // code for generating google maps
 // this code is referenced from the Google Maps API course
@@ -256,5 +251,11 @@ function initMap() {
                 }
             }
 
+ko.applyBindings(stationView);
+}
 
+// Error message handling for Google Maps
+// Alert the user if google maps isn't working
+function googleError() {
+    alert('Google Maps is not loading. Please try again later!');
 }
