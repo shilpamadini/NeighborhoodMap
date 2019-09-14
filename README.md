@@ -21,7 +21,7 @@ This project can be run on a any browser including google chrome, mozilla firefo
 
 1. Use the following command to clone the project repository.
         * ```git clone https://github.com/shilpamadini/NeighborhoodMap.git```
-2. Use any web browser to open the portfolio.html page.This webpage is tested on Google Chrome,Mozilla Firefox and Safari. This webpage is also tested for responsive design.
+2. Use any web browser to open the index.html page.This webpage is tested on Google Chrome,Mozilla Firefox and Safari. This webpage is also tested for responsive design.
 
 ## Functionality
 
